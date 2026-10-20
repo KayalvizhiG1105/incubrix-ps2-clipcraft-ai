@@ -50,3 +50,17 @@ backend/data/*.db
 *.swo
 .DS_Store
 Thumbs.db
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+backend/.venv/
+
+# Temporary uploads and generated outputs
+backend/uploads/*
+!backend/uploads/sample_incubrix_demo.mp4
+backend/outputs/*
+backend/data/*.db
